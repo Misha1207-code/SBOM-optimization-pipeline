@@ -11,7 +11,7 @@ import logging
 from pathlib import Path
 from typing import Union
 
-from schemas.scanner_output.semgrep import SemgrepOutput
+from schemas.scanner_outputs.semgrep import SemgrepOutput
 from schemas.vulnerability import Vulnerability, Severity, FixStatus, VulnerabilitySource
 
 logger = logging.getLogger(__name__)
